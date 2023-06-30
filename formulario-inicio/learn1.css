@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@500&family=Ubuntu:wght@400;700&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: #c3bcba;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  height: 370px;
+}
+
+.formulario {
+  background: #26323e;
+  font-family: 'Ubuntu', sans-serif;
+  color: #fff;
+  padding: 30px;
+}
+
+.sign-up {
+  background: #16b186;
+  padding: 0.6em;
+  width: 190px;
+  color: #fff;
+  border: none;
+}
+
+.log-in {
+  background: #425357;
+  padding: 0.6em;
+  width: 190px;
+  color: #fff;
+  border: none;
+}
+
+.title {
+  padding: 7%;
+  text-align: center;
+}
+
+.input-up {
+  display: inline-block;
+  width: 165px;
+  background: #26323c;
+  border: 1px solid #fff;
+  padding: 7px;
+  margin: 5px;
+  color: #fff;
+}
+
+.input-down {
+  display: inline-block;
+  width: 165px;
+  background: #26323c;
+  border: 1px solid #fff;
+  padding: 7px;
+  margin: 5px;
+  color: #fff;
+}
+
+.correo {
+  margin: 10px -0px;
+  padding: 5px;
+}
+
+.contraseña {
+  margin: 10px -0px;
+  padding: 5px;
+}
+
+.email {
+  background: #26323c;
+  width: 360px;
+  border: 1px solid #fff;
+  padding: 7px;
+  color: #fff;
+}
+
+.password {
+  background: #26323c;
+  width: 360px;
+  border: 1px solid #fff;
+  padding: 7px;
+  color: #fff;
+}
+
+.start {
+  background: #16b186;
+  padding: 0.7em;
+  color: #fff;
+  margin: 5px;
+  width: 375px;
+  border: none;
+}
+
+.start-boton {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 27px;
+}
+
+.sign-up:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.log-in:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.start:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
